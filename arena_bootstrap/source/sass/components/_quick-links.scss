@@ -1,0 +1,244 @@
+// This piece of code is refactored from legacy.
+#block-menu-menu-arena-quick-links {
+  .nav {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 0;
+    list-style: none;
+    .icon {
+      position: absolute;
+      top: 16px;
+      left: 6%;
+    }
+    a {
+      padding: 15px 5% 15px 6%;
+      margin-top: 1px;
+      display: block;
+      position: relative;
+      text-decoration: none;
+      font-family: $font-family-sans-serif-alt;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 1.1em;
+    }
+    li {
+      &:first-child {
+        background-color: $white-2;
+        a {
+          &:before {
+            background-image: url('../../images/backgrounds/auto-sprite-sbb76a2a494.png');
+            background-position: -69px 0;
+            background-repeat: no-repeat;
+            overflow: hidden;
+            display: block;
+            height: 25px;
+            width: 17px;
+            top: 20px;
+            content: '';
+            float: left;
+            margin-right: 10px;
+          }
+        }
+      }
+      &:nth-of-type(2) {
+        background-color: $white-3;
+        a {
+          &:before {
+            background-image: url('../../images/backgrounds/auto-sprite-sbb76a2a494.png');
+            background-position: -308px -134px;
+            background-repeat: no-repeat;
+            overflow: hidden;
+            display: block;
+            height: 18px;
+            width: 20px;
+            content: '';
+            float: left;
+            margin-right: 10px;
+          }
+        }
+      }
+      &:last-child {
+        background: $white-1;
+        a {
+          &:before {
+            background-image: url('../../images/backgrounds/auto-sprite-sbb76a2a494.png');
+            background-position: -207px -134px;
+            background-repeat: no-repeat;
+            overflow: hidden;
+            display: block;
+            height: 14px;
+            width: 20px;
+            content: '';
+            float: left;
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+  }
+
+  @media (-webkit-min-device-pixel-ratio: 2) {
+
+    #block-menu-menu-arena-quick-links {
+      .nav {
+        li {
+          &:first-child {
+            a {
+              &:before {
+                background-image: url('../../images/backgrounds/auto-sprite-2x-se0124bd06c.png');
+                background-size: 341px 863.5px;
+                background-position: 0 -561px;
+                height: 26px;
+                width: 17px;
+                content: '';
+                padding-right: 10px;
+              }
+            }
+
+          }
+          &:nth-of-type(2) {
+            a {
+              &:before {
+                background-image: url('../../images/backgrounds/auto-sprite-2x-se0124bd06c.png');
+                background-size: 341px 863.5px;
+                background-position: 0 -589px;
+                height: 19px;
+                width: 20px;
+                content: '';
+              }
+            }
+          }
+          &:last-child {
+            a {
+              &:before {
+                background-image: url('../../images/backgrounds/auto-sprite-2x-se0124bd06c.png');
+                background-size: 341px 863.5px;
+                background-position: 0 -831px;
+                height: 15px;
+                width: 20px;
+                content: '';
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media (-o-min-device-pixel-ratio: 3 / 2) {
+
+    #block-menu-menu-arena-quick-links {
+      .nav {
+        li {
+          &:first-child {
+            a {
+              &:before {
+                background-image: url('../../images/backgrounds/auto-sprite-2x-se0124bd06c.png');
+                background-size: 341px 863.5px;
+                background-position: 0 -561px;
+                height: 26px;
+                width: 17px;
+                content: '';
+              }
+            }
+          }
+          &:nth-of-type(2) {
+            a {
+              &:before {
+                background-image: url('../../images/backgrounds/auto-sprite-2x-se0124bd06c.png');
+                background-size: 341px 863.5px;
+                background-position: 0 -589px;
+                height: 19px;
+                width: 20px;
+                content: '';
+              }
+            }
+          }
+          &:last-child {
+            a {
+              &:before {
+                background-image: url('../../images/backgrounds/auto-sprite-2x-se0124bd06c.png');
+                background-size: 341px 863.5px;
+                background-position: 0 -831px;
+                height: 15px;
+                width: 20px;
+                content: '';
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media (min-device-pixel-ratio: 2) {
+
+    #block-menu-menu-arena-quick-links {
+      .nav {
+        li {
+          &:first-child {
+            a {
+              &:before {
+                background-image: url('../../images/backgrounds/auto-sprite-2x-se0124bd06c.png');
+                background-size: 341px 863.5px;
+                background-position: 0 -561px;
+                height: 26px;
+                width: 17px;
+                content: '';
+              }
+            }
+          }
+          &:nth-of-type(2) {
+            a {
+              &:before {
+                background-image: url('../../images/backgrounds/auto-sprite-2x-se0124bd06c.png');
+                background-size: 341px 863.5px;
+                background-position: 0 -589px;
+                height: 19px;
+                width: 20px;
+                content: '';
+              }
+            }
+          }
+          &:last-child {
+            a {
+              &:before {
+                background-image: url('../../images/backgrounds/auto-sprite-2x-se0124bd06c.png');
+                background-size: 341px 863.5px;
+                background-position: 0 -831px;
+                height: 15px;
+                width: 20px;
+                content: '';
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.no-touch {
+  #block-menu-menu-arena-quick-links {
+    .nav {
+      li {
+        &:first-child {
+          &:hover {
+            background-color: $white-4;
+          }
+        }
+        &:nth-of-type(2) {
+          &:hover {
+            background-color: $white-5;
+          }
+        }
+        &:last-child {
+          &:hover {
+            background-color: $white-6;
+          }
+        }
+      }
+    }
+  }
+}

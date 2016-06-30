@@ -1,0 +1,41 @@
+#block-bean-arena-share-it-bean {
+  h2 {
+    font-size: 1.1em;
+    color: $brand-primary-blue;
+    margin: 0 0 1em;
+    display: inline-block;
+    line-height: 1.2;
+    &:before {
+      content: "";
+      display: block;
+      width: 100%;
+      min-width: 30px;
+      border-top: 1px solid $thumbnail-border;
+      margin-bottom: 1em;
+    }
+  }
+  .a2a_kit {
+    a {
+      text-decoration: none !important;
+      display: inline-block;
+      margin: 0 5px 5px 0;
+      font-size: 12px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+      border-radius: 3px;
+      color: $gray-3;
+      background: $gray-light;
+      border: 1px solid $gray-2;
+      box-shadow: 0 1px 0 rgba(0, 0, 0, .08);
+      text-shadow: none;
+      line-height: 23px;
+      padding: 1px 8px 0 1px;
+    }
+    .a2a_svg {
+      background-size: 100%;
+      background-repeat: no-repeat;
+      height: 22px;
+      width: 22px;
+    }
+  }
+}

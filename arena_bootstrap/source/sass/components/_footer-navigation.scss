@@ -1,0 +1,53 @@
+#block-menu-menu-arena-footer {
+  ul {
+    clear: both;
+    padding-top: 50px;
+    padding-left: 15%;
+    font-size: .85em;
+    .lt-ie8 & {
+      padding-top: 25px;
+    }
+    li {
+      margin-bottom: 5px;
+      a {
+        padding: 0;
+      }
+      &.active {
+        a {
+          font-family: $font-family-sans-serif-alt;
+          font-style: normal;
+          font-weight: bold;
+        }
+      }
+    }
+
+    @media screen and (max-width: 700px) {
+      padding: 0;
+      background-color: $gray-light-2;
+      li {
+        margin-bottom: 1px;
+        font-size: 1.1em;
+        a {
+          text-align: center;
+          background-color: $white;
+          display: block;
+          padding: 7px;
+          text-decoration: none;
+          color: $gray-dark;
+        }
+        span {
+          text-align: center;
+          background-color: $white;
+          display: block;
+          padding: 7px;
+          text-decoration: none;
+          color: $gray-dark;
+          a {
+            padding: 0;
+            display: inline;
+          }
+        }
+      }
+    }
+  }
+}

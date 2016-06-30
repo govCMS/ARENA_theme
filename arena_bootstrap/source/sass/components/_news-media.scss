@@ -1,0 +1,138 @@
+// News view ID.
+#block-views-02f4db35c84c97b0f399a765c5be5a70 {
+  float: left;
+  width: 45%;
+  h2 {
+    @extend h1;
+    font-size: $font-size-h1;
+    font-weight: normal;
+  }
+  .views-row {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid $gray-light;
+    clear: left;
+    &.views-row-first {
+      margin: 0;
+      padding: 0;
+      border: 0;
+    }
+  }
+  .views-field-type {
+    margin-bottom: 12px;
+    span {
+      width: 60px;
+      display: inline-block;
+      text-align: center;
+      color: $white;
+      font-size: .7em;
+      line-height: 1;
+      text-transform: uppercase;
+      padding: 8px 0 6px;
+    }
+  }
+  h3 {
+    font-size: 1.2em;
+    margin-bottom: .5em;
+    font-style: normal;
+    font-weight: normal;
+    font-family: $font-family-sans-serif;
+  }
+  .news {
+    h3 {
+      a {
+        color: $blue-6;
+      }
+    }
+    .views-field-type {
+      span {
+        background-color: $blue-6;
+      }
+    }
+  }
+  .media {
+    h3 {
+      a {
+        color: $brand-primary;
+      }
+    }
+    .views-field-type {
+      span {
+        background-color: $brand-primary;
+      }
+    }
+  }
+  .views-field-created {
+    color: $gray-3;
+    position: relative;
+    top: -5px;
+    font-size: $font-size-h6;
+  }
+}
+
+// Media view ID.
+#block-bean-arena-social-media-feeds-bean {
+  float: right;
+  width: 45%;
+  h2 {
+    @extend h1;
+    font-size: $font-size-h1;
+    font-weight: normal;
+  }
+
+  .juicer-feed {
+    width: auto !important;
+  }
+}
+
+// News listing styles.
+.listing {
+  .view-content {
+    > h3 {
+      @extend h2;
+      margin-top: 20px;
+    }
+  }
+  .views-row {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid $gray-light;
+    @include clearfix;
+    &.views-row-first {
+      margin: 0;
+      padding: 0;
+      border: 0;
+    }
+    > time {
+      float: left;
+      display: block;
+      margin-right: 2px;
+      text-align: center;
+      text-transform: uppercase;
+      width: 100px;
+      min-height: 83px;
+      padding-top: 17px;
+      background: $gray-light;
+      border: 1px solid $gray-lighter;
+      span {
+        display: block;
+        text-align: center;
+        font-size: .9em;
+        line-height: 1.5em;
+        color: $green-1;
+      }
+      .day {
+        font-size: 1.7em;
+        line-height: 1.2em;
+      }
+      + {
+        .summary {
+          margin-left: 10px;
+          float: left;
+          width: calc(100% - 120px);
+        }
+      }
+    }
+  }
+}

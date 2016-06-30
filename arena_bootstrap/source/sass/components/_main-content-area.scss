@@ -1,0 +1,76 @@
+#contentArea {
+  padding: 0 0 20px;
+  margin-left: 8.14%;
+  width: 91.86%;
+  h2 {
+    font-family: $font-family-sans-serif-alt;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.3em;
+    .arena-funding-title {
+      display: block;
+      float: right;
+      font-size: .75em;
+      line-height: 22px;
+      padding-right: 45px;
+    }
+  }
+  h3 {
+    font-size: 1.1em;
+  }
+  li {
+    margin-bottom: .5em;
+  }
+  dl {
+    background-color: $gray-light;
+    dt {
+      float: left;
+      width: 30%;
+      padding: 5px 2% 0;
+      clear: left;
+      overflow: auto;
+      p {
+        width: 75%;
+        float: left;
+        margin: 0;
+        color: $brand-primary-blue;
+      }
+      .arena-funding {
+        display: block;
+        float: right;
+        vertical-align: middle;
+        margin: 5px 0 0;
+      }
+      &:first-child + dd {
+        border-top: 0;
+      }
+    }
+    dd {
+      padding: 5px 2% 5px 34%;
+      margin-left: 0;
+      border-bottom: 1px solid $border-color-2;
+      border-top: 1px solid $border-color-3;
+    }
+  }
+}
+
+#content {
+  padding: 0 7.9% 1px 6.5%;
+  width: 85.6%;
+  strong {
+    font-family: $font-family-sans-serif-alt;
+    font-style: normal;
+    font-weight: bold;
+  }
+  .btn {
+    margin-right: 0;
+    margin-bottom: 1em;
+  }
+}
+
+.front {
+  #content {
+    padding: 0 0 1px;
+    width: 100%;
+  }
+}

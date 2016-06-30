@@ -1,0 +1,59 @@
+.breadcrumb {
+  margin: 0 7.9% 1em 6.5%;
+  width: 85.6%;
+  padding: 0;
+  list-style: none;
+  float: left;
+  font-size: .8em;
+  li {
+    display: inline;
+    padding-left: 10px;
+    margin-left: 5px;
+    background-image: url('../../images/backgrounds/sprite.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-color: transparent;
+    background-position: left -395px;
+    .retina & {
+      background-size: 50px auto;
+      background-position: left -220px;
+    }
+    @media (-webkit-min-device-pixel-ratio: 2) {
+      background-size: 50px auto;
+      background-position: left -220px;
+    }
+    @media (-o-min-device-pixel-ratio: 3 / 2) {
+      background-size: 50px auto;
+      background-position: left -220px;
+    }
+    @media (min-device-pixel-ratio: 2) {
+      background-size: 50px auto;
+      background-position: left -220px;
+    }
+    &:first-child {
+      padding: 0;
+      margin: 0;
+      background: none;
+    }
+  }
+  a {
+    color: $blue-5;
+  }
+}
+
+
+@media screen and (max-width: 925px) {
+  .mediaqueries {
+    .breadcrumb {
+      margin: 0 8.8% 17px 3.7%;
+      width: 87.5%;
+    }
+  }
+}
+@media screen and (max-width: 700px) {
+  .mediaqueries {
+    .breadcrumb {
+      display: none;
+    }
+  }
+}

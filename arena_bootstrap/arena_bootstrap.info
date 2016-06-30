@@ -1,0 +1,36 @@
+name = Arena Bootstrap
+description = A Starterkit that uses the Bootstrap Framework SASS source files and must be compiled (not for beginners).
+core = 7.x
+base theme = bootstrap
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Regions
+;;;;;;;;;;;;;;;;;;;;;
+
+regions[navigation]     = 'Navigation'
+regions[header]         = 'Top Bar'
+regions[highlighted]    = 'Highlighted'
+regions[help]           = 'Help'
+regions[content]        = 'Content'
+regions[sidebar_first]  = 'Primary'
+regions[sidebar_second] = 'Secondary'
+regions[footer]         = 'Footer'
+regions[page_top]       = 'Page top'
+regions[page_bottom]    = 'Page bottom'
+
+;; Disable BootstrapCDN so the compiled SASS source files can be used.
+settings[bootstrap_cdn] = ''
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Stylesheets
+;;;;;;;;;;;;;;;;;;;;;
+
+stylesheets[all][] = build/css/arena-styles.min.css
+stylesheets[all][] = build/css/jquery.dataTables.min.css
+stylesheets[screen][] = http://cloud.webtype.com/css/a8183141-3d10-4e27-ae65-4e4191786756.css
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Scripts
+;;;;;;;;;;;;;;;;;;;;;
+
+scripts[] = 'build/js-contrib/jquery.dataTables.min.js'

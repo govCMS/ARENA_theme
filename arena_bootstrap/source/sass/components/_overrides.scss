@@ -1,0 +1,29 @@
+// Override from system base to fix paragraphs edit page.
+html {
+  &.js {
+    fieldset {
+      &.collapse {
+        clear: both;
+        height: auto;
+      }
+    }
+  }
+}
+
+// Bootstrap override.
+*,
+:after,
+:before {
+  box-sizing: content-box;
+}
+
+dt {
+  font-weight: normal;
+  line-height: inherit;
+}
+
+.page-header {
+  border: 0;
+  padding: 0;
+  margin: 0 0 .5em 0;
+}

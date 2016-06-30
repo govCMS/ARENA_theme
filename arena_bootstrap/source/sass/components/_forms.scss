@@ -1,0 +1,23 @@
+.node-webform {
+  .field-name-body {
+    clear: both;
+  }
+  .webform-submit {
+    margin-right: 19% !important;
+  }
+  .webform-component-textarea {
+    .form-textarea-wrapper {
+      width: 52%;
+    }
+  }
+  .webform-component {
+    @include clearfix;
+    margin: 0.5em 0;
+  }
+}
+
+#block-system-main {
+  form.search-form {
+    display: none;
+  }
+}

@@ -1,0 +1,170 @@
+// Styles inherits from legacy css.
+.paragraphs-items-field-para-social-media-link {
+  margin: 0 5% 0 15%;
+  font-size: $font-size-h6;
+  .field-items {
+    margin: 0 auto;
+    padding: 0;
+    .field-item {
+      float: left;
+      margin-right: 7%;
+      margin-bottom: 7%;
+      width: 17%;
+      overflow: visible;
+      &:first-child {
+        margin-left: 0;
+      }
+      a {
+        font-size: 0;
+        text-shadow: none;
+        color: transparent;
+        display: block;
+        padding: 0 !important;
+        height: 25px;
+        width: 25px;
+        overflow: hidden;
+        background-repeat: no-repeat;
+        &.twitter {
+          background: transparent url('../../images/social-circles/social-twitter-circle-small.png') no-repeat scroll top left !important;
+        }
+        &.facebook {
+          background: transparent url('../../images/social-circles/social-facebook-circle-small.png') no-repeat scroll top left !important;
+        }
+        &.youtube {
+          background: transparent url('../../images/social-circles/social-youtube-circle-small.png') no-repeat scroll top left !important;
+        }
+        &.linkedin {
+          background: transparent url('../../images/social-circles/social-linkedin-circle-small.png') no-repeat scroll top left !important;
+        }
+        &.rss {
+          background: transparent url('../../images/social-circles/social-rss-circle-small.png') no-repeat scroll top left !important;
+        }
+        &.pinterest {
+          background: transparent url('../../images/social-circles/social-pinterest-circle-small.png') no-repeat scroll top left !important;
+        }
+      }
+    }
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2) {
+  .paragraphs-items-field-para-social-media-link {
+    .field-items {
+      .field-item {
+        .twitter {
+          background: transparent url('../../images/social-circles/social-twitter-circle.png') no-repeat scroll top left;
+          background-size: 25px;
+        }
+        .facebook {
+          background: transparent url('../../images/social-circles/social-facebook-circle.png') no-repeat scroll top left;
+          background-size: 25px;
+        }
+        .youtube {
+          background: transparent url('../../images/social-circles/social-youtube-circle.png') no-repeat scroll top left;
+          background-size: 25px;
+        }
+        .linkedin {
+          background: transparent url('../../images/social-circles/social-linkedin-circle.png') no-repeat scroll top left;
+          background-size: 25px;
+        }
+        .rss {
+          background: transparent url('../../images/social-circles/social-rss-circle.png') no-repeat scroll top left;
+          background-size: 25px;
+        }
+        .pinterest {
+          background: transparent url('../../images/social-circles/social-pinterest-circle.png') no-repeat scroll top left;
+          background-size: 25px;
+        }
+      }
+    }
+  }
+}
+
+@media (-o-min-device-pixel-ratio: 3 / 2) {
+  .paragraphs-items-field-para-social-media-link {
+    .field-items {
+      .field-item {
+        .twitter {
+          background: transparent url('../../images/social-circles/social-twitter-circle.png') no-repeat scroll top left;
+          background-size: 25px;
+        }
+        .facebook {
+          background: transparent url('../../images/social-circles/social-facebook-circle.png') no-repeat scroll top left;
+          background-size: 25px;
+        }
+        .youtube {
+          background: transparent url('../../images/social-circles/social-youtube-circle.png') no-repeat scroll top left;
+          background-size: 25px;
+        }
+        .linkedin {
+          background: transparent url('../../images/social-circles/social-linkedin-circle.png') no-repeat scroll top left;
+          background-size: 25px;
+        }
+        .rss {
+          background: transparent url('../../images/social-circles/social-rss-circle.png') no-repeat scroll top left;
+          background-size: 25px;
+        }
+        .pinterest {
+          background: transparent url('../../images/social-circles/social-pinterest-circle.png') no-repeat scroll top left;
+          background-size: 25px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-device-pixel-ratio: 2) {
+  .paragraphs-items-field-para-social-media-link {
+    .field-items {
+      .field-item {
+        .twitter {
+          background: transparent url('../../images/social-circles/social-twitter-circle.png') no-repeat scroll top left;
+          background-size: 25px;
+        }
+        .facebook {
+          background: transparent url('../../images/social-circles/social-facebook-circle.png') no-repeat scroll top left;
+          background-size: 25px;
+        }
+        .youtube {
+          background: transparent url('../../images/social-circles/social-youtube-circle.png') no-repeat scroll top left;
+          background-size: 25px;
+        }
+        .linkedin {
+          background: transparent url('../../images/social-circles/social-linkedin-circle.png') no-repeat scroll top left;
+          background-size: 25px;
+        }
+        .rss {
+          background: transparent url('../../images/social-circles/social-rss-circle.png') no-repeat scroll top left;
+          background-size: 25px;
+        }
+        .pinterest {
+          background: transparent url('../../images/social-circles/social-pinterest-circle.png') no-repeat scroll top left;
+          background-size: 25px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .paragraphs-items-field-para-social-media-link {
+    width: 96%;
+    padding: 10px 2% 5px;
+    float: left;
+    background-color: $gray-light-2;
+    margin: 0;
+    .field-items {
+      float: left;
+      width: 100%;
+    }
+    .field-item {
+      margin-right: 5%;
+      &:first-child {
+        margin-right: 5%;
+      }
+    }
+    a {
+      float: right;
+    }
+  }
+}
